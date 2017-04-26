@@ -1,0 +1,44 @@
+<resources>
+    <!-- General app strings -->
+    <string name="app_name">Equaliser</string>
+    <string name="logo_content_description">Equaliser logo</string>
+
+    <!-- Login screen strings -->
+    <string name="welcome_text">Welcome to Equaliser!</string>
+    <string name="scan_qr_button_text">Scan QR code</string>
+    <string name="login_screen_text">You need to be logged in online to log into the app</string>
+
+    <!-- Barcode reader strings -->
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission. The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+    <!-- Navigation drawer strings -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="profile_image_content_description">Profile image</string>
+    <string name="placeholder_forename">George</string>
+    <string name="placeholder_surname">Brighton</string>
+    <string name="placeholder_email">george@gebn.co.uk</string>
+    <string name="browse_tab_title">Browse</string>
+    <string name="attending_tab_title">Attending</string>
+    <string name="ticket_tab_title">Ticket</string>
+    <string name="settings_tab_title">Settings</string>
+    <string name="logout_tab_title">Log out</string>
+
+    <!-- Fixtures Activity strings -->
+    <string name="fixtures_activity_title">Series</string>
+    <string name="fixtures">Fixtures</string>
+    <string name="buy">Buy</string>
+    <string name="wait">Wait</string>
+
+    <!-- Ticket tab strings -->
+    <string name="ticket_image_content_description">Image of event ticket</string>
+
+    <!-- Event card tab strings -->
+    <string name="event_image_content_description">Image of event</string>
+
+    <!-- Navigation strings -->
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+</resources>

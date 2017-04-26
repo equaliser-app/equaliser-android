@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fixtures_list_view_item_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/tier_padding"
+    android:paddingTop="@dimen/tier_padding">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tier_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorBlack" />
+
+        <TextView
+            android:id="@+id/tier_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorDarkGrey" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buy_wait_button"
+        style="@style/Button"
+        android:layout_width="72dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
